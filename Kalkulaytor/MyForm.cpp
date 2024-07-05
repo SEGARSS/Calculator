@@ -1,10 +1,10 @@
-#include "MyForm.h"
+ï»¿#include "MyForm.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
 
 [STAThreadAttribute]
-int main(array<String^>^ args) //Àâòîìàòè÷åñêè î÷èùàòü ìàññèâ ñòðîê - ^>^
+int main(array<String^>^ args) //ÐÐ²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸ Ð¾Ñ‡Ð¸Ñ‰Ð°Ñ‚ÑŒ Ð¼Ð°ÑÑÐ¸Ð² ÑÑ‚Ñ€Ð¾Ðº - ^>^
 {
 	Application::SetCompatibleTextRenderingDefault(false);
 	Application::EnableVisualStyles();
