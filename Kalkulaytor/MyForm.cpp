@@ -9,6 +9,6 @@ int main(array<String^>^ args) //Автоматически очищать ма�
 	Application::SetCompatibleTextRenderingDefault(false);
 	Application::EnableVisualStyles();
 	Kalkulaytor::MyForm form;
-	Application::Run(% form);
+	Application::Run(% form); //65
 }
 
